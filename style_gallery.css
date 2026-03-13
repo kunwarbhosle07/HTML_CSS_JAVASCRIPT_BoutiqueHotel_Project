@@ -1,0 +1,228 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.gallery-title{
+    height:80px;
+    background-color: rgb(107, 107, 107);
+    color:rgb(255, 255, 255);
+    text-align: center;
+    padding-top: 10px;
+    font-family:'Times New Roman', Times, serif;
+}
+.explore{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:normal;
+    width:500px;
+    padding-left:500px;
+    margin-bottom:100px;
+}
+.gallery-container{
+    margin-left:100px;
+    margin-right:100px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+}
+.row{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.i1{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/1.png);
+    background-size: cover;
+    background-position: center;
+}
+.i2{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/2.png);
+    background-size: cover;
+    background-position: center;
+}
+.i3{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/3.png);
+    background-size: cover;
+    background-position: center;
+}
+.i4{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/4.png);
+    background-size: cover;
+    background-position: center;
+}
+.i5{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/5.png);
+    background-size: cover;
+    background-position: center;
+}
+.i6{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/8.png);
+    background-size: cover;
+    background-position: center;
+}
+.i7{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/6.png);
+    background-size: cover;
+    background-position: center;
+}
+.i8{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/7.png);
+    background-size: cover;
+    background-position: center;
+}
+.i9{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image.png);
+    background-size: cover;
+    background-position: center;
+}
+.i10{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy.png);
+    background-size: cover;
+    background-position: center;
+}
+.i11{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 2.png);
+    background-size: cover;
+    background-position: center;
+}
+.i12{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 3.png);
+    background-size: cover;
+    background-position: center;
+}
+.i13{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 4.png);
+    background-size: cover;
+    background-position: center;
+}
+.i14{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 5.png);
+    background-size: cover;
+    background-position: center;
+}
+.i15{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 6.png);
+    background-size: cover;
+    background-position: center;
+}
+.i16{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 7.png);
+    background-size: cover;
+    background-position: center;
+}
+.i17{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 8.png);
+    background-size: cover;
+    background-position: center;
+}
+.i18{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 9.png);
+    background-size: cover;
+    background-position: center;
+}
+.i19{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 10.png);
+    background-size: cover;
+    background-position: center;
+}
+.i20{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 11.png);
+    background-size: cover;
+    background-position: center;
+}
+.i21{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 12.png);
+    background-size: cover;
+    background-position: center;
+}
+.i22{
+    display:inline-block;
+    height:300px;
+    width:400px;
+    margin:10px;
+    background-image: url(Gallery/image\ copy\ 13.png);
+    background-size: cover;
+    background-position: center;
+}

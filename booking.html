@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>StayHopper</title>
+    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="style_booking.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <div class="title">
+            <div class="stayhopper">
+                <h1>STAYHOPPER</h1>
+            </div>
+            <p class="hotel">HOTELS AND RESORTS</p>
+        </div>
+        <nav class="navigations">
+            <div class="nav">
+                <pre><a href="index.html">Home</a></pre>
+                <pre><a href="gallery.html">Gallery</a></pre>
+                <pre><a href="booking.html">Bookings</a></pre>
+                <pre><a href="amenities.html">Amenities </a></pre>
+            </div>
+        </nav>
+    </header>
+
+    <div class="booking-top">
+        <img src="booking-top.png">
+    </div>
+    <div class="break">
+       <pre>Our best rate tonight is 10,500.00 INR                       <strong style="text-decoration: underline;" class="direct">Book direct and save!</strong></pre>
+    </div>
+    <div class="booking-container">
+        <div class="booking-form">
+        <form id="bookingForm">
+            <div class="name">
+                <label>Name:</label>
+                <input type="text" placeholder="Enter your Name" required>
+            </div>
+            <div class="book">
+                <div class="book-in">
+                    <label>Check-in</label>
+                    <input type="date" id="checkin">
+                </div>
+
+                <div class="book-out">
+                    <label>Check-out</label>
+                    <input type="date" id="checkout">
+                </div>
+            </div>
+
+            <div class="pets">
+                <label>Do You Have Any Pets?</label>
+                <select id="pets">
+                <option value="0">No</option>
+                <option value="20">Yes (+$20)</option>
+                </select>
+            </div>
+            
+
+            <button type="button" onclick="calculatePrice()" onclick="cart()" class="booking-button">Calculate Price</button>
+
+            <h3 id="priceResult"></h3>
+
+        </form>
+        </div>
+    </div>
+    <div class="cart" id="cart">
+        <h2 id="items" class="items">YOUR ITEMS: </h2>
+        <h3 id="bill" class="bill">Total </h3>
+        <p style="color:black; margin-top:5px;">4% city tax per person,per night is not included in the rates and will be charged at hotel on departure.</p>
+    </div>   
+
+    
+    <div class="footer-container">
+        <div class="guide">
+            <div class="footer-card">
+                <ul>
+                    <li>Find Hotels</li>
+                    <li>Best Rate Guarantee</li>
+                    <li>Plan an Event</li>
+                    <li>Pet Friendly Hotels</li>
+                    <li>Opening Soon</li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <ul>
+                    <li>About Us</li>
+                    <li>Company Corporate Profile</li>
+                    <li>Pressroom/ Media/ News</li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <ul>
+                    <li>Careers</li>
+                    <li>Partner with us</li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <ul>
+                    <li>Privacy Policy</li>
+                    <li>Child Policy</li>
+                    <li>GDS Codes</li>
+                    <li>Terms & Conditions</li>
+                    <li>Contact Us</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="stayhopper1">
+                <h1 class="footer-title">STAYHOPPER</h1>
+                <p class="hotel1">HOTELS AND RESORTS</p>
+            </div>
+        <div class="copyright">
+            <h4>Copyright © 2026, The StayHopper Hotels. All rights reserved.</h4>
+        </div>
+    </div>
+</body>
+</html>
